@@ -13,6 +13,7 @@ resource "azurerm_postgresql_server" "example" {
   ssl_enforcement_enabled      = false
 }
 
+
 resource "azurerm_postgresql_configuration" "example" {
      name                = "log_checkpoints"
      resource_group_name = "api-rg-pro"
